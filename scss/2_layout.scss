@@ -1,0 +1,52 @@
+%__container {
+    margin: auto;
+    max-width: $max-base-width;
+    padding: 1.5em 1em;
+    line-height: 1.8em;
+}
+
+@mixin __flex-item {
+	flex: auto;
+	padding: 1.5em 0;
+	
+	@media only screen and (min-device-width: $tablet-base-width) {
+		&{
+			flex:1;
+		}
+	}
+	@media only screen and (min-device-width: $max-base-width) {
+		&{
+			flex:1;
+		}
+	}
+}
+
+%__title{
+	font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .75em .2em;
+}
+
+%__h3_title{
+	@extend %__title;
+	font-size: 1.0rem;
+}
+
+%__border_button{
+	text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: $secondary-color;
+    background-color: transparent;
+    border: 1px solid transparent;
+    background-image: none;
+    padding: .375rem 2.75rem;
+    border-color: $secondary-color;/*#5bc0c3*/
+
+}
+
+
+
+

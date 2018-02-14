@@ -1,0 +1,18 @@
+$font-stack:    OpenSans, Helvetica, sans-serif;
+$primary-color: #333;
+$secondary-color: #5dc0c9;
+$bg-color-dark: #f1f2f5;
+$footer-color: #5d5e61;
+$footer-color-dark:#454850;
+
+$max-base-width: 1110px;
+$tablet-base-width: 768px;
+$mobile-base-width: 480px;
+
+@import '1_base';
+@import '2_layout';
+@import '3_module';
+@import '4_state';
+@import '5_theme';
+@import '6_fonts';
+@import '7_icon-font';

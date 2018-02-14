@@ -1,0 +1,25 @@
+name = Open Charity Drupal Theme 
+description = A theme for Open Charity done with only HTML and CSS as a test for Compucorp
+package = Open Charity
+version = VERSION
+core = 7.x
+;stylesheets[all][] = scss/1_base.scss
+;stylesheets[all][] = scss/2_layout.scss
+;stylesheets[all][] = scss/3_module.scss
+;stylesheets[all][] = scss/4_state.scss
+;stylesheets[all][] = scss/5_theme.scss
+
+stylesheets[all][] = scss/style.scss
+
+
+
+
+regions[header] = Header 
+regions[header_left] = Header Left
+regions[header_right] = Header Right
+regions[highlighted] = Highlighted 
+regions[help] = Help 
+regions[content] = Content 
+regions[sidebar_first] = Left sidebar 
+regions[sidebar_second] = Right sidebar 
+regions[footer] = Footer
